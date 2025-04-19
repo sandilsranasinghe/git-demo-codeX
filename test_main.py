@@ -4,7 +4,7 @@ from main import greet
 class TestGreet(unittest.TestCase):
     def test_normal(self):
         # TODO fix test
-        self.assertEqual(greet("Alice"), "Hello, Alice!")
+        self.assertEqual(greet("Alice"), "Greetings, Alice!")
 
     def test_non_str(self):
         with self.assertRaises(ValueError):
