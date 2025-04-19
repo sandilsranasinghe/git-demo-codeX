@@ -21,3 +21,4 @@ def greet(name):
 if __name__ == "__main__":
     print("Starting the program...")
     print(greet("World"))
+    print("Ending the program...")
