@@ -15,7 +15,7 @@ def greet(name):
 
     if not isinstance(name, str):
         raise ValueError("Name must be a string")
-    return f"Hello, {name}!"
+    return f"Hey there, {name}!"
 
 
 if __name__ == "__main__":
