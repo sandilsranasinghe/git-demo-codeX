@@ -3,6 +3,7 @@ from main import greet
 
 class TestGreet(unittest.TestCase):
     def test_normal(self):
+        # TODO fix test
         self.assertEqual(greet("Alice"), "Hello, Alice!")
 
     def test_non_str(self):
