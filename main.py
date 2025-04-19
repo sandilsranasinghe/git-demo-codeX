@@ -1,4 +1,5 @@
 
+# TODO make it possible to greet multiple users
 def greet(name):
     """Greets the user with their name.
 
